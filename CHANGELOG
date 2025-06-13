@@ -24,7 +24,7 @@ WinDivert 1.1.0-rc
       * WINDIVERT_FLAG_NO_CHECKSUM: Do not guarantee that diverted packets
         have a correct checksum.
     - New default values and limits for various WinDivert parameters,
-      including WINDIVERT_PARAM_QUEUE_LEN, WINDIVERT_PARAM_QUEUE_TIME, and
+      including WINDIVERT_PARAM_QUEUE_LENGTH, WINDIVERT_PARAM_QUEUE_TIME, and
       the maximum filter length.
     - New extended WinDivert functions that support asynchronous I/O:
       * WinDivertRecvEx(..)
